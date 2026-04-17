@@ -1,0 +1,21 @@
+# Secrets — never commit
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Vector store (rebuild with python main.py --rebuild-rag)
+vector_store/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
