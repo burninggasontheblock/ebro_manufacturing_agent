@@ -1,7 +1,9 @@
-# Secrets — never commit
+# Secrets — never commit (keep .env.example tracked as a template)
 .env
-.env.local
+.env.*
+!.env.example
 *.pem
+*.key
 
 # Python
 __pycache__/
