@@ -1,6 +1,6 @@
 # Manufacturing Operations AI
 
-Multi-agent **root cause analysis (RCA)** demo for manufacturing incidents. An LLM orchestrator picks specialist agents (quality, throughput, maintenance, supplier, safety); each agent uses domain tools and a shared **FAISS + RAG** knowledge base. A final **RCA synthesizer** merges findings into ranked hypotheses with confidence scores and recommended actions.
+Multi-agent **root cause analysis (RCA)** for manufacturing incidents. An LLM orchestrator picks specialist agents (quality, throughput, maintenance, supplier, safety); each agent uses domain tools and a shared **FAISS + RAG** knowledge base. A final **RCA synthesizer** merges findings into ranked hypotheses with confidence scores and recommended actions.
 
 ## Architecture
 
